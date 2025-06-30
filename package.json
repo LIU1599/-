@@ -1,0 +1,38 @@
+{
+  "name": "frontend-internship-guide",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "前端实习生知识指南 - 包含React、Vue、Echarts、ElementUI等技术的完整学习路径",
+  "keywords": [
+    "frontend",
+    "internship",
+    "vue",
+    "react",
+    "echarts",
+    "element-ui"
+  ],
+  "author": "Frontend Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "axios": "^1.6.2",
+    "echarts": "^5.4.3",
+    "element-plus": "^2.4.4",
+    "pinia": "^2.3.1",
+    "vue": "^3.4.0",
+    "vue-echarts": "^6.6.1",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.0"
+  }
+}

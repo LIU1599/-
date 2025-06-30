@@ -1,0 +1,35 @@
+{
+  // JavaScript 项目配置文件
+  // 用于配置编辑器的智能提示、路径别名等
+  
+  // 编译器选项
+  "compilerOptions": {
+    // 模块系统
+    "module": "ESNext",
+    // 模块解析策略
+    "moduleResolution": "bundler",
+    // 允许导入 JSON 文件
+    "allowImportingTsExtensions": true,
+    // 解析选项
+    "resolveJsonModule": true,
+    // 是否隔离模块
+    "isolatedModules": true,
+    // 不生成输出文件
+    "noEmit": true,
+    // JSX 支持
+    "jsx": "preserve",
+    // 路径别名配置
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  
+  // 包含的文件
+  "include": [
+    // 包含 src 目录下的所有文件
+    "src/**/*.js",
+    "src/**/*.vue"
+  ],
+  // 排除的文件
+  "exclude": ["node_modules", "dist"]
+}
